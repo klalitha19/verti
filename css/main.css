@@ -1,0 +1,681 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+#nav {
+  /* border: 2px solid; */
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background: rgba(55, 61, 73, 0.975);
+  color: #fff;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  z-index: 5;
+}
+#nav h1 {
+  display: flex;
+  margin: 16px;
+  margin-top: 18px;
+  font-size: 1.1em;
+}
+#nav div {
+  border: 1px solid;
+  width: 350px;
+  height: 45px;
+  position: absolute;
+  top: 8px;
+  left: 75px;
+  border-color: #676d79;
+  border-radius: 5px;
+}
+#nav div ol {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: 11px;
+  margin-left: 20px;
+  gap: 20px;
+  text-align: center;
+
+  /* margin-top: ; */
+}
+#nav div ol button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 15px;
+  /* border-radius: 10px; */
+  /* background: #676d79; */
+  /* height: 2.75em; */
+}
+#nav div #ol2 {
+  position: absolute;
+  border: 1px solid;
+  width: 48px;
+  height: 45px;
+  border-color: #676d79;
+  border-radius: 5px;
+  top: 0px;
+  left: 340px;
+}
+#nav div #ol2:hover {
+  cursor: pointer;
+}
+#nav div #ol2 li svg {
+  fill: #fff;
+  margin: 12px;
+}
+#nav #right {
+  border: 1px solid;
+  height: 45px;
+  width: 170px;
+  position: absolute;
+  left: 1050px;
+  border-color: #676d79;
+  display: flex;
+  /* justify-content: end; */
+}
+#nav #right #ul1 button {
+  border: 1px solid;
+  border: none;
+  height: 25px;
+  width: 60px;
+  border-radius: 5px;
+  padding: 6px;
+  display: flex;
+  margin-left: 10px;
+  position: absolute;
+  background: none;
+  margin-top: 10px;
+  background-color: #3232e0;
+  color: #fff;
+  fill: #fff;
+}
+
+#nav #right #ul1 button + button {
+  border: 1px solid;
+  border: none;
+  border-radius: 10px;
+  /* padding: 10px; */
+  margin-left: 80px;
+  position: absolute;
+  background-color: black;
+  color: #fff;
+  fill: #fff;
+}
+#nav #right #ul2 {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 45px;
+  width: 80px;
+  position: absolute;
+  left: 180px;
+  border-color: #676d79;
+  display: flex;
+  /* top: 30px; */
+}
+#nav #right #ul2 li {
+  list-style: none;
+  position: absolute;
+  margin: 10px;
+  margin-left: 25px;
+  font-size: 16px;
+}
+#nav #right #ul2 li button {
+  border: none;
+  background: none;
+  color: #fff;
+}
+#nav #right #ul3 {
+  border: 1px solid;
+  border-radius: 5px;
+  background: #e7746f;
+  border-color: #e7746f;
+  height: 45px;
+  width: 160px;
+  position: absolute;
+  left: 270px;
+}
+
+#nav #right #ul3 li {
+  list-style: none;
+  position: absolute;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 20px;
+}
+#bt {
+  border: none;
+  background: none;
+  color: #fff;
+}
+#nav2 {
+  background-image: url("../image./background-img");
+  height: 1220px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(245, 222, 179, 0.2);
+  margin-top: 60px;
+}
+
+#nav2 #logo h1 {
+  background: #ff4486;
+  color: #fff;
+  border-radius: 6px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 120px;
+  font-family: "Oleo Script", serif;
+  font-weight: 400;
+  font-size: 2.85em;
+  letter-spacing: 0.05em;
+}
+
+#logo span {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 240px;
+  color: #676d79;
+  font-weight: 800;
+  line-height: 4.5em;
+  letter-spacing: 0.025em;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+#nav-right ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  margin-top: 95px;
+  margin-left: 660px;
+  gap: 45px;
+  color: #696969;
+  /* font-size: 20px; */
+}
+#nav-right #right li {
+  font-size: 18px;
+  color: #696969;
+  font-weight: 600px;
+}
+
+#nav-right #right #li1 button {
+  height: 30px;
+  width: 120px;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+#box {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  height: 330px;
+  width: 1210px;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 130px;
+  background-color: #fff;
+  display: flex;
+}
+#box #sub-box h2 {
+  font-size: 3.8em;
+  margin: 0.1em 0 0.35em 0;
+  color: #444;
+  line-height: 1em;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 70px;
+  font-weight: 800;
+}
+#box #sub-box p {
+  position: absolute;
+  color: #676d79;
+  margin-top: 150px;
+  margin-left: 70px;
+  font-size: 2.5em;
+  font-family: serif;
+  line-height: 1.35em;
+}
+#sub-box2 #let {
+  list-style: none;
+}
+#sub-box2 #let #b1 button {
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 80px;
+  height: 80px;
+  width: 350px;
+  background-color: #0090c5;
+  font-size: 2em;
+  color: #fff;
+  fill: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#sub-nav #let #b1 button svg {
+  position: absolute;
+  fill: #fff;
+  margin-left: 50px;
+}
+
+#sub-box2 #let #b2 button {
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 190px;
+  height: 80px;
+  width: 350px;
+  color: #000;
+  /* fill: #fff; */
+  font-size: 2em;
+}
+#sub-nav #let #b2 button svg {
+  position: absolute;
+  margin-top: 15px;
+}
+
+#sec {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  height: 600px;
+  width: 1210px;
+  position: absolute;
+  margin-top: 630px;
+  margin-left: 130px;
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-between;
+}
+#sec #sec1 {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 600px;
+    width: 387px;
+    background-color: #fff;
+}
+#sec #sec1 h3{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 1.35em;
+    color: #444;
+    font-weight: 800;
+}
+#sec #sec1 p{
+    position: absolute;
+    color:#676d79;
+    margin-top: 80px;
+    margin-left: 40px;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+#sec #sec2{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 600px;
+    width: 387px;
+    background-color: #fff;
+}
+#sec #sec2 h3{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 1.45em;
+    color: #444;
+    font-weight: 800;
+}
+
+#sec #sec2 p{
+    position: absolute;
+    color: #676d79;
+    margin-top: 80px;
+    margin-left: 40px;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+#sec #sec3 {
+    border : 1px solid #fff;
+    border-radius: 10px;
+    height: 600px;
+    width: 387px;
+    background-color: #fff;
+}
+#sec #sec3 h3{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 1.45em;
+    color: #444;
+    font-weight: 800;
+}
+#sec #sec3 p{
+    position: absolute;
+    color: #676d79;
+    margin-top: 10px;
+    margin-left: 40px;
+    line-height: 1.8em;
+    font-size: 1.2em;
+}
+#rec{
+  /* border: 1px solid; */
+  height: 550px;
+  width: 100%;
+  position: absolute;
+  top: 1280px;
+}
+#rec #rec1{
+  /* border: 1px solid red; */
+  height: 440px;
+  width: 1220px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 125px;
+}
+#rec #rec1 #rec2{
+  /* border: 1px solid blue; */
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  /* margin-top: ; */
+}
+#rec #rec1 #rec2 h3{
+  position: absolute;
+  font-size: 1.35em;
+  margin: 1em 0 1em 1em;
+    /* margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 1em;
+    margin-left: 0px; */
+  color: #444;
+  font-weight: 800;
+}
+#rec #rec1 #rec2 #rec3 #col{
+  display: flex;
+  position: absolute;
+  margin-top: 70px;
+  /* border: 1px solid white; */
+  /* height: 100px; */
+  margin-left: 10px;
+  border-radius: 10px;
+}
+#col #co11{
+  position: absolute;
+  margin-left: 20px;
+  /* border: 1px solid yellowgreen; */
+  /* border-radius: 8px; */
+}
+#col #col2{
+  position: absolute;
+  margin-left: 200px;
+}
+#col1 button{
+  display: flex;
+  height: 104px;
+  border-radius: 8px;
+  /* border: none; */
+
+}
+#col2 button{
+  display: flex;
+  height: 104px;
+  border-radius: 8px;
+}
+#rec #rec1 #rec2 #rec3 #co{
+  display: flex;
+  /* border: 1px solid green; */
+  height: 100px;
+  position: absolute;
+  margin-top: 200px;
+  /* margin-left: 10px; */
+}
+#co #col3{
+  position: absolute;
+  margin-left: 10px;
+}
+#col3 button{
+  display: flex;
+  height: 104px;
+  border-radius: 8px;
+}
+#co #col4{
+  position: absolute;
+  margin-left: 210px;
+  border-radius: 10px;
+}
+#col4 button{
+  display: flex;
+  height: 104px;
+  border-radius: 8px;
+}
+#bton{
+  position: absolute;
+  height: 50px;
+  width: 130px;
+  margin-top: 330px;
+  margin-left: 20px;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  background: #0090c5
+}
+
+#bton a svg{
+  fill: #fff;
+  position: absolute;
+  margin-left: -30px;
+}
+
+#rectangle{
+  display: flex;
+  height: 440px;
+  width: 770px;
+  /* border: 1px solid purple; */
+  margin-left: 450px;
+}
+
+#rectangle h2{
+  color: #444;
+  font-size: 2.0em;
+  position: absolute;
+  margin:  1em 0 0 0.7em;
+  line-height: 1em;
+  font-weight: 800;
+}
+#rectangle p{
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 1em;
+  display: block;
+  line-height: 2;
+  font-size: 1.1em;
+  color: #696969;
+}
+#rectangle p strong{
+  color: #444;
+}
+#rectangle p a{
+  color: #0090c5;
+}
+#rectangle #para{
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 1em;
+  display: block;
+  line-height: 2;
+  font-size: 1.1em;
+  color: #696969;
+}
+#rectangle #btn {
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  margin-top: 350px;
+  margin-left: 20px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 1.1em;
+  border: none;
+  color: #fff;
+  background: #0090c5
+}
+#rectangle a svg{
+  position: absolute;
+  margin-left: -30px;
+  fill: #fff;
+}
+#footer{
+  /* border: 1px solid; */
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  margin-top: 1850px;
+  background-color: rgba(245, 222, 179, 0.2);
+  display: flex;
+  
+}
+#footer #foot #foo1{
+  /* border: 1px solid; */
+  height: 300px;
+  width: 280px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+#foo1 h3{
+  font-size: 2em;
+  font-weight: 800;
+  color: #444;
+}
+#foo1 #list1{
+  list-style: none;
+  color: #696969;
+  position: absolute;
+  margin-top: 20px;
+  /* line-height: 1em; */
+}
+#foo1 #list1 li a{
+  font-size: 1.2em;
+  color: #696969;
+  line-height: 2.0em;
+}
+
+#footer #foot #foo2{
+  /* border: 1px solid; */
+  height: 300px;
+  width: 280px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 420px;
+}
+#foo2 h3{
+  font-size: 2em;
+  font-weight: 800;
+  color: #444;
+}
+#foo2 #list2{
+  list-style: none;
+  color: #696969;
+  position: absolute;
+  margin-top: 20px;
+  /* line-height: 1em; */
+}
+#foo2 #list2 li a{
+  font-size: 1.2em;
+  color: #696969;
+  line-height: 2.0em;
+}
+
+#footer #foot #foo3{
+  /* border: 1px solid; */
+  height: 300px;
+  width: 280px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 740px;
+}
+#foo3 h3{
+  font-size: 2em;
+  font-weight: 800;
+  color: #444;
+}
+#foo3 #list3{
+  list-style: none;
+  color: #696969;
+  position: absolute;
+  margin-top: 20px;
+  /* line-height: 1em; */
+}
+#foo3 #list3 li a{
+  font-size: 1.2em;
+  color: #696969;
+  line-height: 2.0em;
+}
+#footer #foot #foo4{
+  /* border: 1px solid; */
+  height: 300px;
+  width: 280px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 1060px;
+}
+#foo4 h3{
+  position: absolute;
+  font-size: 2em;
+  font-weight: 800;
+  color: #444;
+}
+#foo4 #icons{
+  display: flex;
+  list-style: none;
+  margin-top: 60px;
+  /* margin-left: -5px; */
+}
+#foo4 #icons li a svg{
+  fill: #444;
+  /* position: absolute; */
+  margin-left: 5px;
+}
+#foo4 p{
+  position: absolute;
+  margin-top: 20px;
+  line-height: 2em;
+  font-size: 1.2em;
+  color: #696969;
+  
+}
+#sect #last{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 350px;
+}
+#last #line{
+  display: flex;
+  list-style: none;
+  color: #aaa;
+  padding: 4em 0 0 0;
+  /* position: absolute; */
+  margin-left: 50px;
+  
+}
+#last #line li:first-child{
+  border-left: 0;
+}
+#last #line li{
+  /* position: absolute; */
+  /* margin-left: 30px; */
+  border-left: solid 1px #e0e0e0;
+  padding: 0 0 0 0.75em;
+  margin: 0 0 0 0.75em;
+  font-size: 1.1em;
+  /* font-weight: 800; */
+
+
+}
+#last #line li a{
+  color: #aaa;
+}
